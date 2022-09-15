@@ -1,8 +1,18 @@
 
-  <?php  get_header() ?>
-  
+  <?php    get_header();      ?>
+
   <main id="main">
 
+                <?php 
+
+                  if(have_posts()){
+                      while(have_posts()){
+                        the_post();
+                        the_content();
+                      }
+                  }
+
+                ?>
     <section class="single-post-content">
       <div class="container">
         <div class="row">
@@ -316,7 +326,7 @@
     </section>
   </main><!-- End #main -->
 
-  <?php get_footer() ?>
+  <?php get_footer(); ?>
 
 </body>
 

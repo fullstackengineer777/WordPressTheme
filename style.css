@@ -1,10 +1,10 @@
 /*
-Theme Name: @SeniorSoftDeveloper
-Theme URI: https://cloudways.com
-Description: Mytheme Built on bootstrap
+Theme Name: Star Life
+Theme URI: https://github.com/SeniorSoftDeveloper/WordPressTheme.git master
+Description: Mytheme Built for WordPress and Mobile Responsive.&nbsp;This is well-designed and can  be used for business and e-commerce.The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision.
 Version:1.1
-Author: Ahsan Parwez
-Author URI: https://cloudways.com
+Author: @SeniorSoftDeveloper
+Author URI: https://github.com/SeniorSoftDeveloper
 */
 
 /**
@@ -1310,3 +1310,4 @@ section {
 .footer .credits a {
   color: var(--color-white);
 }
+
